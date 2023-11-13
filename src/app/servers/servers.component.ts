@@ -19,7 +19,7 @@ export class ServersComponent implements OnInit {
   onReload(){
     // whereas the routerLink in the html file always knows which route is active, the Router in your component does not
     // To give this knowledge to the component, importing and using "ActivatedRoute" is required 
-    this.router.navigate(['servers'], {relativeTo: this.route})
+    this.router.navigate(['edit'], {relativeTo: this.route})
   }
 
 }
